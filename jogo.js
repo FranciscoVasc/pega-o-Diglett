@@ -51,7 +51,7 @@ function posicaoRandomica() {
 		document.getElementById('mosquito').remove()
 
 		//console.log('elemento selecionado foi: v' + vidas)
-		if(vidas > 3) {
+		if(vidas > 5) {
 
 			window.location.href = 'fim_de_jogo.html'
 		} else {
@@ -71,7 +71,7 @@ function posicaoRandomica() {
 
 	//criar o elemento html
 	var mosquito = document.createElement('img')
-	mosquito.src = 'imagens/mosquito.png'
+	mosquito.src = 'imagens/050_f2.png'
 	mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
 	mosquito.style.left = posicaoX + 'px'
 	mosquito.style.top = posicaoY + 'px'
